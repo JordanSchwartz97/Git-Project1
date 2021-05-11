@@ -1,2 +1,2 @@
-# Git-Guud-Project1
+# Git-Project1
 First git project
