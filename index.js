@@ -30,3 +30,11 @@ function entertainmentGenerator(){
     return randomEntertainment;
 }
 let randomEntertainment = entertainmentGenerator();
+
+function randomVacationGenerator(){
+    let randomVacation = "Your vacation is in " + randomDestination + ", You will be eating " + randomResturant
+    + ", You will travel in a " + randomModeOfTravel + ", You will do " + randomEntertainment + " for fun.";
+    console.log(randomVacation);
+    return randomVacation
+}
+let randomVacation = randomVacationGenerator();
